@@ -1,0 +1,60 @@
+body {
+    background: url('img/Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.weather-card {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-weather {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-weather h1 {
+    font-size: 4rem;
+}
+
+.main-weather .details {
+    font-size: 1.2rem;
+}
+
+.forecast {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.forecast .time {
+    font-size: 1rem;
+}
+
+.forecast .icon {
+    font-size: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
